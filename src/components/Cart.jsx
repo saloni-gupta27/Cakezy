@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import {getCartItems} from "../redux/cartslice.js"
+import {getCartItems} from "../redux/cartSlice.js"
 import {getCartThunk, removeFromCartThunk} from '../redux/thunk.js'
 
 const Cart = () => {
