@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {getCartItems, removefromcart} from "../redux/cartslice.js"
+import {getCartItems, removefromcart} from "../redux/cartSlice.js"
 
 
 export function getCartThunk (){
