@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { addtocart } from "../redux/cartslice.js";
+import { addtocart } from "../redux/cartSlice.js";
 import { useDispatch } from "react-redux";
 
 const CakeDetails = ({ cartItems, setCartItems }) => {
